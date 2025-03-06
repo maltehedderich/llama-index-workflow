@@ -15,5 +15,6 @@ dev = [
     "mypy>=1.15.0",
     "pytest>=8.3.5",
     "pytest-asyncio>=0.25.3",
+    "ruff>=0.9.9",
     "types-deprecated>=1.2.15.20250304",
 ]

@@ -158,9 +158,9 @@ class WorkflowCheckpointer:
     ) -> bool:
         if last_completed_step and ckpt.last_completed_step != last_completed_step:
             return False
-        if input_event_type and type(ckpt.input_event) != input_event_type:
+        if input_event_type and type(ckpt.input_event) is not input_event_type:
             return False
-        if output_event_type and type(ckpt.output_event) != output_event_type:
+        if output_event_type and type(ckpt.output_event) is not output_event_type:
             return False
         return True
 

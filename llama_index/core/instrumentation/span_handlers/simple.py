@@ -1,10 +1,11 @@
 import inspect
-from typing import Any, Dict, cast, List, Optional, TYPE_CHECKING
-from llama_index.core.instrumentation.span.simple import SimpleSpan
-from llama_index.core.instrumentation.span_handlers.base import BaseSpanHandler
+import warnings
 from datetime import datetime
 from functools import reduce
-import warnings
+from typing import TYPE_CHECKING, Any, Dict, List, Optional, cast
+
+from llama_index.core.instrumentation.span.simple import SimpleSpan
+from llama_index.core.instrumentation.span_handlers.base import BaseSpanHandler
 
 if TYPE_CHECKING:
     from treelib import Tree
@@ -94,7 +95,7 @@ class SimpleSpanHandler(BaseSpanHandler[SimpleSpan]):
         """Method for getting trace trees."""
         try:
             from treelib import Tree
-        except ImportError as e:
+        except ImportError:
             raise ImportError(
                 "`treelib` package is missing. Please install it by using "
                 "`pip install treelib`."
