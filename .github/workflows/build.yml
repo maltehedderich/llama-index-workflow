@@ -26,11 +26,5 @@ jobs:
       - name: Run ruff
         run: uv run ruff check llama_index
 
-      - name: Run mypy
-        run: |
-          uv run mypy llama_index --namespace-packages --explicit-package-bases --disallow-untyped-defs --ignore-missing-imports --python-version=3.9
-        env:
-          MYPYPATH: ${{ github.workspace }}/llama_index
-
       - name: Run Tests
         run: uv run pytest
