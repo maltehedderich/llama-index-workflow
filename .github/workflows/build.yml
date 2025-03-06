@@ -28,7 +28,7 @@ jobs:
 
       - name: Run mypy
         run: |
-          export MYPYPATH=llama_index
+          export MYPYPATH=${{ github.workspace }}/llama_index
           uv run mypy llama_index --namespace-packages --explicit-package-bases --disallow-untyped-defs --ignore-missing-imports --python-version=3.9
 
       - name: Run Tests
