@@ -1,16 +1,8 @@
-name: Backend CI/CD
+name: Build
 
 on:
   push:
     branches: [main]
-    paths:
-      - 'backend/**'
-  pull_request:
-    branches: [main]
-    paths:
-      - 'backend/**'
-  merge_group:
-    types: [checks_requested]
 
 jobs:
   test:
