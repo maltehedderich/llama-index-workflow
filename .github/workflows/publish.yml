@@ -18,12 +18,9 @@ jobs:
       - name: Install uv
         run: pip install uv
 
-      - name: Create virtual environment
-        run: uv venv
-
       - name: Build package
         run: |
-          uv pip install build
+          uv pip install --system build
           uv build --no-sources
 
       - name: Upload distribution artifacts
