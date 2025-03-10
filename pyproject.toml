@@ -29,6 +29,9 @@ dev = [
     "types-deprecated>=1.2.15.20250304",
 ]
 
+[project.urls]
+Repository = "https://github.com/maltehedderich/llama-index-workflow"
+Issue Tracker = "https://github.com/maltehedderich/llama-index-workflow/issues"
 
 [build-system]
 requires = ["hatchling"]
