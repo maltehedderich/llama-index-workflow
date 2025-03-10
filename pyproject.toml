@@ -2,6 +2,15 @@
 name = "llama-index-workflow"
 version = "1.0.0"
 description = "Lightweight fork of LlamaIndex's workflow module, offering powerful event-driven orchestration without the full llama-index-core dependencies."
+license = {text = "MIT"}
+authors = [
+    {name = "Malte Hedderich", email = "malte@hedderich.pro"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
 readme = "README.md"
 requires-python = ">=3.9"
 
