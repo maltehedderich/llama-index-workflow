@@ -20,7 +20,7 @@ Therefore, the usage is the same as described in the [LlamaIndex documentation](
 
 ## 👷‍♀️ Contributing
 
-As this is aimed to be a lightweight version of the LlamaIndex workflow module, it is not intended to be extended or modified. If you want to contribute to the workflow module, I recommend checking out the original [LlamaIndex GitHub page](https://github.com/run-llama/llama_index).
+As this is aimed to be a lightweight version of the LlamaIndex workflow module, it is not intended to be extended or modified. If you want to contribute to the workflow module, I recommend checking out the original [llama_index GitHub page](https://github.com/run-llama/llama_index).
 
 Feel free to open an issue or merge request if there are new features in the original LlamaIndex workflow module that you would like to see in this lightweight version.
 
@@ -43,4 +43,4 @@ The following list of authors and maintainers is derived from the pyproject.toml
 - Simon Suo <simon@llamaindex.ai>
   Sourabh Desai <sourabh@llamaindex.ai>
 
-I can not list all the contributors here, but you can find them on the [LlamaIndex GitHub page](https://github.com/run-llama/llama_index).
+I can not list all the contributors here, but you can find them on the [llama_index GitHub page](https://github.com/run-llama/llama_index).
