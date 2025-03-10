@@ -5,56 +5,41 @@
 - [About](#about)
 - [Getting Started](#getting_started)
 - [Usage](#usage)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
+- [Contributing](#contributing)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
-## 🧐 About <a name = "about"></a>
+## 🧐 About `<a name = "about"></a>`
 
 This repo is a lightweight fork of LlamaIndex's workflow module, offering powerful event-driven orchestration without the full llama-index-core dependencies. I love the work that LlamaIndex has done with their workflow module, and I wanted a lightweight version that I could use in my own projects without the overhead of the full llama-index-core module.
 
-## 🏁 Getting Started <a name = "getting_started"></a>
-
-TBD
-
-### Prerequisites
-
-TBD
-
 ### Installing
 
-We use uv as package manager for all python dependencies. To install uv, run the following command:
+The library is published on PyPI, so you can install it using pip:
 
 ```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
+pip install llama-index-workflow
 ```
 
-To install the dependencies, run the following command:
+## 🎈 Usage `<a name="usage"></a>`
 
-```bash
-uv install
-```
+As this is a lightweight version of the LlamaIndex workflow module, the usage is identical to the original module. The main difference is that you don't have to install the full llama-index-core module.
 
-## 🔧 Running the tests <a name = "tests"></a>
+Therefore, the usage is the same as described in the [LlamaIndex documentation](https://docs.llamaindex.ai/en/stable/module_guides/workflow/).
 
-Tests are written using pytest. To run the tests, run the following command:
+## 👷‍♀️ Contributing `<a name = "contributing"></a>`
 
-```bash
-uv run pytest
-```
+As this is aimed to be a lightweight version of the LlamaIndex workflow module, it is not intended to be extended or modified. If you want to contribute to the workflow module, I recommend checking out the original [LlamaIndex GitHub page](https://github.com/run-llama/llama_index).
 
-## 🎈 Usage <a name="usage"></a>
+Feel free to open an issue or merge request if there are new features in the original LlamaIndex workflow module that you would like to see in this lightweight version.
 
-TBD
-
-## ✍️ Authors <a name = "authors"></a>
+## ✍️ Authors `<a name = "authors"></a>`
 
 - [@maltehedderich](https://github.com/maltehedderich) - Forked from LlamaIndex
 
 The code is 100% based on the work of LlamaIndex, and I am grateful for their work. I am just providing a lightweight version of their workflow module.
 
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+## 🎉 Acknowledgements `<a name = "acknowledgement"></a>`
 
 Huge thanks to all the amazing contributors to the LlamaIndex project. I am grateful for their work and the inspiration they provide to the community.
 
