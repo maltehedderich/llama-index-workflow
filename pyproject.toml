@@ -1,6 +1,6 @@
 [project]
 name = "llama-index-workflow"
-version = "1.0.1"
+version = "1.1.0"
 description = "Lightweight fork of LlamaIndex's workflow module, offering powerful event-driven orchestration without the full llama-index-core dependencies."
 license = {text = "MIT"}
 authors = [
