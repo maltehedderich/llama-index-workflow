@@ -1,16 +1,16 @@
 # LlamaIndex Workflow
 
-> [!WARNING] > **🚨 REPOSITORY NO LONGER MAINTAINED 🚨**
->
-> This repository is **no longer maintained** as there is now an official `llama-index-workflows` package available.
->
-> **Please use the official package instead:**
->
-> ```bash
-> pip install llama-index-workflows
-> ```
->
-> For documentation and support, please refer to the official LlamaIndex documentation at <https://docs.llamaindex.ai/en/stable/module_guides/workflow/>
+**🚨 REPOSITORY NO LONGER MAINTAINED 🚨**
+
+This repository is **no longer maintained** as there is now an official `llama-index-workflows` package available.
+
+**Please use the official package instead:**
+
+```bash
+pip install llama-index-workflows
+```
+
+For documentation and support, please refer to the official LlamaIndex documentation at [https://docs.llamaindex.ai/en/stable/module_guides/workflow/](https://docs.llamaindex.ai/en/stable/module_guides/workflow/)
 
 ## 🧐 About
 
