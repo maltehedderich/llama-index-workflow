@@ -1,5 +1,17 @@
 # LlamaIndex Workflow
 
+> [!WARNING] > **🚨 REPOSITORY NO LONGER MAINTAINED 🚨**
+>
+> This repository is **no longer maintained** as there is now an official `llama-index-workflows` package available.
+>
+> **Please use the official package instead:**
+>
+> ```bash
+> pip install llama-index-workflows
+> ```
+>
+> For documentation and support, please refer to the official LlamaIndex documentation at <https://docs.llamaindex.ai/en/stable/module_guides/workflow/>
+
 ## 🧐 About
 
 This repo is a lightweight fork of LlamaIndex's workflow module, offering powerful event-driven orchestration without the full llama-index-core dependencies. I love the work that LlamaIndex has done with their workflow module, and I wanted a lightweight version that I could use in my own projects without the overhead of the full llama-index-core module.
